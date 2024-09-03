@@ -7,6 +7,10 @@ public class HelloWorld {
         System.out.println(Msg);
     }
 
+    public static void whatFor(String args){
+        System.out.println(args + ", what for?");
+    }
+
     public static void main(String[] args) {
         System.out.println("Hello from Eclipse");
         System.out.println("TJ is working locally on his branch");
